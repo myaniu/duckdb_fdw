@@ -27,7 +27,7 @@ else
 DLSUFFIX = .so
 endif
 
-SHLIB_LINK := -lsqlite3_api_wrapper
+SHLIB_LINK := -lsqlite3_api_wrapper -lsqlite3
 
 ifdef USE_PGXS
 PG_CONFIG = pg_config
